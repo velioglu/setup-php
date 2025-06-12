@@ -310,4 +310,4 @@ link_apt_fast >/dev/null 2>&1
 . "${scripts:?}"/extensions/add_extensions.sh
 read_env
 #self_hosted_setup
-setup_php
+#setup_php
