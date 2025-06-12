@@ -309,5 +309,5 @@ link_apt_fast >/dev/null 2>&1
 . "${scripts:?}"/extensions/source.sh
 . "${scripts:?}"/extensions/add_extensions.sh
 read_env
-self_hosted_setup
+#self_hosted_setup
 setup_php
