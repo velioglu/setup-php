@@ -1,6 +1,6 @@
-name: 'Setup PHP Action'
-author: shivammathur
-description: 'GitHub Action for PHP'
+name: 'Without Self Hosted PHP'
+author: velioglu
+description: 'GitHub Action for PHP - Without Self Hosted'
 branding:
   color: 'purple'
   icon: 'play-circle'
