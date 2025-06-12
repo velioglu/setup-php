@@ -59,10 +59,10 @@ read_env() {
   runner="${runner:-${RUNNER:-$_runner}}"
   tool_path_dir="${setup_php_tools_dir:-${SETUP_PHP_TOOLS_DIR:-/usr/local/bin}}"
 
-  if [[ "$runner" = "github" && $_runner = "self-hosted" ]]; then
-    fail_fast=true
-    add_log "$cross" "Runner" "Runner set as github in self-hosted environment"
-  fi
+  # if [[ "$runner" = "github" && $_runner = "self-hosted" ]]; then
+  #   fail_fast=true
+  #   add_log "$cross" "Runner" "Runner set as github in self-hosted environment"
+  # fi
 
   # Set Update to true if the ubuntu github image does not have PHP PPA.
   if [[ "$runner" = "github" && "${ImageOS}" =~ ubuntu.* ]]; then
